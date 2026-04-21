@@ -1,101 +1,634 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Jonas Moser//PDC World Series Calendar//EN
+PRODID:-//Jonas Moser//Darts Tournaments Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:PDC World Series of Darts
+X-WR-CALNAME:Darts Tournaments
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Custom subscription calendar for PDC World Series of Darts events.
+X-WR-CALDESC:Combined calendar for PDC Premier League, European Tour, World Series and major televised tournaments.
 
 BEGIN:VEVENT
-UID:20260115-bahrain-darts-masters@jonasmoser
+UID:20251211-world-darts-championship-2025-26@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Major – World Darts Championship 2025/26
+DTSTART;VALUE=DATE:20251211
+DTEND;VALUE=DATE:20260104
+LOCATION:Alexandra Palace, London, England
+DESCRIPTION:Category: Major
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/paddy-power-world-darts-championship
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260115-bahrain-darts-masters@darts-calendar
 DTSTAMP:20260421T120000Z
 SUMMARY:PDC World Series – Bahrain Darts Masters
 DTSTART;VALUE=DATE:20260115
 DTEND;VALUE=DATE:20260117
 LOCATION:The Dome, Manama, Bahrain
-DESCRIPTION:Official PDC World Series event.
-URL:https://www.pdc.tv/tournaments/world-series-of-darts
+DESCRIPTION:Category: World Series
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260119-saudi-arabia-darts-masters@jonasmoser
+UID:20260119-saudi-arabia-darts-masters@darts-calendar
 DTSTAMP:20260421T120000Z
 SUMMARY:PDC World Series – Saudi Arabia Darts Masters
 DTSTART;VALUE=DATE:20260119
 DTEND;VALUE=DATE:20260121
 LOCATION:Global Theater, Riyadh, Saudi Arabia
-DESCRIPTION:Official PDC World Series event.
-URL:https://www.pdc.tv/tournaments/world-series-of-darts
+DESCRIPTION:Category: World Series
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260605-nordic-darts-masters@jonasmoser
+UID:20260129-world-masters@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Major – Winmau World Masters
+DTSTART;VALUE=DATE:20260129
+DTEND;VALUE=DATE:20260202
+LOCATION:Arena MK, Milton Keynes, England
+DESCRIPTION:Category: Major
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/winmau-world-masters
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260205-premier-league-night-1@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 1
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+LOCATION:Utilita Arena, Newcastle, England
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260212-premier-league-night-2@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 2
+DTSTART;VALUE=DATE:20260212
+DTEND;VALUE=DATE:20260213
+LOCATION:AFAS Dome, Antwerp, Belgium
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260219-premier-league-night-3@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 3
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+LOCATION:OVO Hydro, Glasgow, Scotland
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260220-european-tour-1-poland-darts-open@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Poland Darts Open
+DTSTART;VALUE=DATE:20260220
+DTEND;VALUE=DATE:20260223
+LOCATION:EXPO Kraków, Kraków, Poland
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260226-premier-league-night-4@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 4
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+LOCATION:SSE Arena, Belfast, Northern Ireland
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260305-premier-league-night-5@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 5
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+LOCATION:Utilita Arena, Cardiff, Wales
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260306-uk-open@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Major – UK Open
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260309
+LOCATION:Butlin's Minehead Resort, Minehead, England
+DESCRIPTION:Category: Major
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/news/2026/march/05/where-to-watch-the-2026-ladbrokes-uk-open/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260312-premier-league-night-6@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 6
+DTSTART;VALUE=DATE:20260312
+DTEND;VALUE=DATE:20260313
+LOCATION:Motorpoint Arena, Nottingham, England
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260313-european-tour-2-european-darts-trophy@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – European Darts Trophy
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260316
+LOCATION:Lokhalle, Göttingen, Germany
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260319-premier-league-night-7@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 7
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+LOCATION:3Arena, Dublin, Ireland
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260320-european-tour-3-belgian-darts-open@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Belgian Darts Open
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260323
+LOCATION:Oktoberhallen, Wieze, Belgium
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260326-premier-league-night-8@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 8
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+LOCATION:Uber Arena, Berlin, Germany
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260402-premier-league-night-9@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 9
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+LOCATION:AO Arena, Manchester, England
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260404-european-tour-4-german-darts-grand-prix@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – German Darts Grand Prix
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260407
+LOCATION:Zenith, Munich, Germany
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260409-premier-league-night-10@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 10
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260410
+LOCATION:Brighton Centre, Brighton, England
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260416-premier-league-night-11@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 11
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+LOCATION:Rotterdam Ahoy, Rotterdam, Netherlands
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260417-european-tour-5-european-darts-grand-prix@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – European Darts Grand Prix
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260420
+LOCATION:Glaspalast Sindelfingen, Sindelfingen, Germany
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260423-premier-league-night-12@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 12
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260424
+LOCATION:M&S Bank Arena, Liverpool, England
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260430-premier-league-night-13@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 13
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+LOCATION:P&J Live, Aberdeen, Scotland
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260507-premier-league-night-14@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 14
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+LOCATION:First Direct Arena, Leeds, England
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260508-european-tour-6-austrian-darts-open@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Austrian Darts Open
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260511
+LOCATION:Halle A, Messe Congress Graz, Graz, Austria
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc-europe.tv/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260514-premier-league-night-15@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 15
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+LOCATION:Utilita Arena, Birmingham, England
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260521-premier-league-night-16@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Night 16
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+LOCATION:Utilita Arena, Sheffield, England
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260522-european-tour-7-international-darts-open@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – International Darts Open
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260525
+LOCATION:WT Energiesysteme Arena, Riesa, Germany
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc-europe.tv/tournaments/et-2026-en/international-darts-open-2026/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260528-premier-league-finals-night@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Premier League – Finals Night
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+LOCATION:The O2, London, England
+DESCRIPTION:Category: Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betmgm-premier-league
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260529-european-tour-8-baltic-sea-darts-open@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Baltic Sea Darts Open
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260601
+LOCATION:Kiel, Germany
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc-europe.tv/tournaments/et-2026-en/baltic-sea-darts-open-2026/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260605-nordic-darts-masters@darts-calendar
 DTSTAMP:20260421T120000Z
 SUMMARY:PDC World Series – Nordic Darts Masters
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260607
 LOCATION:Forum Copenhagen, Copenhagen, Denmark
-DESCRIPTION:Official PDC World Series event.
-URL:https://www.pdc.tv/tournaments/world-series-of-darts
+DESCRIPTION:Category: World Series
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260625-us-darts-masters@jonasmoser
+UID:20260611-world-cup-of-darts@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Major – World Cup of Darts
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260615
+LOCATION:Eissporthalle, Frankfurt, Germany
+DESCRIPTION:Category: Major
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betvictor-world-cup-of-darts
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260619-european-tour-9-slovak-darts-open@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Slovak Darts Open
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260622
+LOCATION:Incheba, Bratislava, Slovakia
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260625-us-darts-masters@darts-calendar
 DTSTAMP:20260421T120000Z
 SUMMARY:PDC World Series – US Darts Masters
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260627
-LOCATION:Infosys Theatre, Madison Square Garden, New York, USA
-DESCRIPTION:Official PDC World Series event.
-URL:https://www.pdc.tv/tournaments/world-series-of-darts
+LOCATION:Infosys Hall at The Theater at Madison Square Garden, New York, USA
+DESCRIPTION:Category: World Series
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260814-new-zealand-darts-masters@jonasmoser
+UID:20260710-european-tour-10-european-darts-open@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – European Darts Open
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260713
+LOCATION:Ostermann-Arena, Leverkusen, Germany
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260718-world-matchplay@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Major – World Matchplay
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260727
+LOCATION:Winter Gardens, Blackpool, England
+DESCRIPTION:Category: Major
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/betfred-world-matchplay
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260814-new-zealand-darts-masters@darts-calendar
 DTSTAMP:20260421T120000Z
 SUMMARY:PDC World Series – New Zealand Darts Masters
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260816
 LOCATION:Spark Arena, Auckland, New Zealand
-DESCRIPTION:Official PDC World Series event.
-URL:https://www.pdc.tv/tournaments/world-series-of-darts
+DESCRIPTION:Category: World Series
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260821-australian-darts-masters@jonasmoser
+UID:20260821-australian-darts-masters@darts-calendar
 DTSTAMP:20260421T120000Z
 SUMMARY:PDC World Series – Australian Darts Masters
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260823
 LOCATION:WIN Entertainment Centre, Wollongong, Australia
-DESCRIPTION:Official PDC World Series event.
-URL:https://www.pdc.tv/tournaments/world-series-of-darts
+DESCRIPTION:Category: World Series
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260917-world-series-finals@jonasmoser
+UID:20260828-european-tour-11-hungarian-darts-trophy@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Hungarian Darts Trophy
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260831
+LOCATION:MVM Dome, Budapest, Hungary
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260904-european-tour-12-czech-darts-open@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Czech Darts Open
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260907
+LOCATION:PVA EXPO, Prague, Czech Republic
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260911-european-tour-13-flanders-darts-trophy@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Flanders Darts Trophy
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260914
+LOCATION:Antwerp Expo, Antwerp, Belgium
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260917-world-series-finals@darts-calendar
 DTSTAMP:20260421T120000Z
 SUMMARY:PDC World Series – World Series of Darts Finals
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260921
-LOCATION:Amsterdam, Netherlands
-DESCRIPTION:Official PDC World Series Finals event.
-URL:https://www.pdc.tv/tournaments/jacks-casino-world-series-of-darts-finals
+LOCATION:AFAS Live, Amsterdam, Netherlands
+DESCRIPTION:Category: World Series
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/jacks-casino-world-series-of-darts-finals
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260928-world-grand-prix@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Major – World Grand Prix
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261005
+LOCATION:Mattioli Arena, Leicester, England
+DESCRIPTION:Category: Major
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/boyle-sports-world-grand-prix
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261009-european-tour-14-swiss-darts-trophy@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Swiss Darts Trophy
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261012
+LOCATION:St. Jakobshalle, Basel, Switzerland
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261016-european-tour-15-dutch-darts-championship@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC European Tour – Dutch Darts Championship
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+LOCATION:MECC Maastricht, Maastricht, Netherlands
+DESCRIPTION:Category: European Tour
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/pdc-protour/european-tour
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261022-european-championship@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Major – European Championship
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261026
+LOCATION:Westfalenhalle, Dortmund, Germany
+DESCRIPTION:Category: Major
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc-europe.tv/tournaments/major-2026-de/european-championship-2026/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261114-grand-slam-of-darts@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Major – Grand Slam of Darts
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261123
+LOCATION:WV Active Aldersley, Wolverhampton, England
+DESCRIPTION:Category: Major
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/mr-vegas-grand-slam-of-darts
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261127-players-championship-finals@darts-calendar
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC Major – Players Championship Finals
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+LOCATION:Butlin's Minehead Arena, Minehead, England
+DESCRIPTION:Category: Major
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.pdc.tv/tournaments/ladbrokes-players-championship-finals
 END:VEVENT
 
 END:VCALENDAR
