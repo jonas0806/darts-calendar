@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Jonas Moser//PDC World Series Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PDC World Series of Darts
+X-WR-TIMEZONE:Europe/Berlin
+X-WR-CALDESC:Custom subscription calendar for PDC World Series of Darts events.
+
+BEGIN:VEVENT
+UID:20260115-bahrain-darts-masters@jonasmoser
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC World Series – Bahrain Darts Masters
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260117
+LOCATION:The Dome, Manama, Bahrain
+DESCRIPTION:Official PDC World Series event.
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260119-saudi-arabia-darts-masters@jonasmoser
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC World Series – Saudi Arabia Darts Masters
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260121
+LOCATION:Global Theater, Riyadh, Saudi Arabia
+DESCRIPTION:Official PDC World Series event.
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260605-nordic-darts-masters@jonasmoser
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC World Series – Nordic Darts Masters
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260607
+LOCATION:Forum Copenhagen, Copenhagen, Denmark
+DESCRIPTION:Official PDC World Series event.
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260625-us-darts-masters@jonasmoser
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC World Series – US Darts Masters
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260627
+LOCATION:Infosys Theatre, Madison Square Garden, New York, USA
+DESCRIPTION:Official PDC World Series event.
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260814-new-zealand-darts-masters@jonasmoser
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC World Series – New Zealand Darts Masters
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260816
+LOCATION:Spark Arena, Auckland, New Zealand
+DESCRIPTION:Official PDC World Series event.
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260821-australian-darts-masters@jonasmoser
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC World Series – Australian Darts Masters
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260823
+LOCATION:WIN Entertainment Centre, Wollongong, Australia
+DESCRIPTION:Official PDC World Series event.
+URL:https://www.pdc.tv/tournaments/world-series-of-darts
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260917-world-series-finals@jonasmoser
+DTSTAMP:20260421T120000Z
+SUMMARY:PDC World Series – World Series of Darts Finals
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260921
+LOCATION:Amsterdam, Netherlands
+DESCRIPTION:Official PDC World Series Finals event.
+URL:https://www.pdc.tv/tournaments/jacks-casino-world-series-of-darts-finals
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+
+END:VCALENDAR
